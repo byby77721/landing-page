@@ -1,0 +1,25 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /*Xoffset, YOffset, Blur, Color(r,g,b, Opacity)*/
+}
+
+.parallax-container {
+  height: 20%; /*jangan pakai px supaya ikutin ukuran sebenarnya*/
+}
+
+.parallax img {
+  /* filter: grayscale(); Supaya gambar jadi hitam putih */
+  opacity: 0.5 !important;
+}
+
+.clients img {
+  max-width: 120px;
+  filter: drop-shadow(2px 1px 3px rgba(0, 0, 0, 0.9));
+}
+
+section,
+footer {
+  /*supaya ada jarak dari tulisan ke pinggir*/
+  padding: 20px 0; /* atas bawah 20px dan kiri kanan 0*/
+}
