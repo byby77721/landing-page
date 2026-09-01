@@ -227,6 +227,7 @@ article img{
 
 #form-box{
     padding: 1rem;
+    scroll-margin-top: 3rem;
 }
 
 form>fieldset{
